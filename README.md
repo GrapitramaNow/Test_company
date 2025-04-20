@@ -27,17 +27,6 @@ What did users say about the search bar?
 
 Summarize the most common problems reported
 
-โครงสร้างโปรเจกต์
-Test_company/
-├── app/
-│   ├── ingestion.py           # เตรียมข้อมูล สร้าง FAISS Index
-│   ├── vector_store.py        # โหลดเวกเตอร์จากดิสก์
-├── agent.py                   # Agent เลือกว่าจะใช้ Q&A หรือ Summary
-├── main.py                    # FastAPI app
-├── data/                      # เอกสาร .txt (bug report / feedback)
-├── index/                     # FAISS index และ metadata
-├── requirements.txt           # Python dependencies
-├── Dockerfile                 # Docker configuration
 
 ข้อมูลเพิ่มเติม
 ใช้โมเดล LLM: TinyLlama-1.1B-Chat-v1.0 จาก HuggingFace
