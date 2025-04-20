@@ -3,24 +3,24 @@ AI Assistant for Product & Engineering Team
 
 ขั้นตอนการติดตั้ง
 1. เตรียมเครื่อง
-
-ติดตั้ง Docker Desktop (จำเป็น)
-
-พื้นที่ว่างขั้นต่ำ: 5GB (เพื่อโหลดและรันโมเดล LLM)
+  
+  ติดตั้ง Docker Desktop (จำเป็น)
+  
+  พื้นที่ว่างขั้นต่ำ: 5GB (เพื่อโหลดและรันโมเดล LLM)
 
 2. Clone โปรเจกต์ หรือ Download 
 
-git clone https://github.com/GrapitramaNow/Test_company.git
-cd Test_company
+  git clone https://github.com/GrapitramaNow/Test_company.git
+  cd Test_company
 
 
 4. สร้าง Docker Image
 
-docker build -t ai-assistant .
+  docker build -t ai-assistant .
 
 5. รันระบบ
 
-docker run -p 8000:8000 ai-assistant
+  docker run -p 8000:8000 ai-assistant
 
 วิธีใช้งาน
 
@@ -28,19 +28,20 @@ docker run -p 8000:8000 ai-assistant
 http://localhost:8000/ask
 
 กรอกคำถาม เช่น:
-What are the issues reported on email notification?
 
-What did users say about the search bar?
-
-Summarize the most common problems reported
+  What are the issues reported on email notification?
+  
+  What did users say about the search bar?
+  
+  Summarize the most common problems reported
 
 
 ข้อมูลเพิ่มเติม
 ใช้โมเดล 
-LLM: TinyLlama-1.1B-Chat-v1.0 จาก HuggingFace
-
-Embedding: all-MiniLM-L6-v2
-
-Vector Store: FAISS
-
-Framework: FastAPI
+  LLM: TinyLlama-1.1B-Chat-v1.0 จาก HuggingFace
+  
+  Embedding: all-MiniLM-L6-v2
+  
+  Vector Store: FAISS
+  
+  Framework: FastAPI
