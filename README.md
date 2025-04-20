@@ -31,6 +31,9 @@ Summarize the most common problems reported
 
 ข้อมูลเพิ่มเติม
 ใช้โมเดล LLM: TinyLlama-1.1B-Chat-v1.0 จาก HuggingFace
+
 Embedding: all-MiniLM-L6-v2
+
 Vector Store: FAISS
+
 Framework: FastAPI
